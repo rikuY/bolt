@@ -12,6 +12,10 @@ body {
   color: #333;
 }
 
+.img {
+  vertical-align: bottom;
+}
+
 .main {
   margin-top: 70px;
 }
@@ -80,8 +84,6 @@ body {
 
 .about__img {
   flex-basis: 40%;
-  font-size: 0;
-  line-height: 0;
   text-align: center;
 }
 
@@ -129,13 +131,13 @@ body {
 }
 
 .latest-work__content {
-  margin-bottom: 80px;
   opacity: 0.7;
+  text-decoration: none;
   transition: 0.3s;
 }
 
-.latest-work__content:nth-child(n+4):nth-child(-n+6) {
-  margin-bottom: 0;
+.latest-work__content:nth-child(n+4) {
+  margin-top: 80px;
 }
 
 .latest-work__content:hover {
@@ -155,9 +157,9 @@ body {
 }
 
 .guide__contact {
+  align-self: flex-end;
   background-color: #74cfae;
   color: #fff;
-  display: block;
   font-size: 12px;
   margin-left: 90px;
   padding: 14px 20px;
@@ -193,6 +195,10 @@ body {
   margin-top: 10px;
   text-align: center;
  }
+
+.skill__img {
+  vertical-align: bottom;
+}
 
  /*nav*/
  .nav {
