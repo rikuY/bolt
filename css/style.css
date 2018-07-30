@@ -210,7 +210,6 @@ body {
 
 .latest-work__contents {
   margin-bottom: 90px;
-  text-decoration: none;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -222,6 +221,7 @@ body {
 
 .guide {
   display: flex;
+  align-items: flex-start;
   justify-content: center;
 }
 
@@ -230,7 +230,6 @@ body {
 }
 
 .guide__contact {
-  align-self: flex-end;
   margin-left: 90px;
 }
 
@@ -268,7 +267,6 @@ body {
 
 .latest-work__contents {
   margin-bottom: 80px;
-  text-decoration: none;
 }
 
 .latest-work__content {
@@ -359,7 +357,6 @@ body {
 
 .latest-work__contents {
   margin-bottom: 80px;
-  text-decoration: none;
 }
 
 .latest-work__content {
